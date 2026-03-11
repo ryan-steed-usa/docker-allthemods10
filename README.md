@@ -62,7 +62,13 @@ Github: https://github.com/Goobaroo/docker-allthemods9
 
 Docker: https://hub.docker.com/repository/docker/goobaroo/allthemods9
 
-## Source (W3LFARe repo)
+## Source (Original ATM10 W3LFARe repo)
 Github: https://github.com/W3LFARe/docker-allthemods10
 
 Docker: https://registry.hub.docker.com/r/w3lfare/allthemods10 
+
+## Source (ryan-steed-usa repo)
+Github: https://github.com/ryan-steed-usa/docker-allthemods10
+
+Container Package: ghcr.io/ryan-steed-usa/docker-allthemods10:latest
+https://github.com/ryan-steed-usa/docker-allthemods10/pkgs/container/docker-allthemods10)
