@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - v[0-9]+.[0-9]+.[0-9]+
+      - v[0-9]+.[0-9]+.[0-9]+*
 
 jobs:
   docker-image:
@@ -12,7 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     
     permissions:
-      contents: write-all
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
       
     steps:
       # GitHub Packages requires the entire repository name to be in lowercase
