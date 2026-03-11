@@ -71,4 +71,4 @@ Docker: https://registry.hub.docker.com/r/w3lfare/allthemods10
 Github: https://github.com/ryan-steed-usa/docker-allthemods10
 
 Container Package: ghcr.io/ryan-steed-usa/docker-allthemods10:latest
-https://github.com/ryan-steed-usa/docker-allthemods10/pkgs/container/docker-allthemods10)
+(https://github.com/ryan-steed-usa/docker-allthemods10/pkgs/container/docker-allthemods10)
