@@ -7,6 +7,7 @@ on:
 
 jobs:
   update-mod:
+    if: ${{ vars.CURSEFORGE_UPDATE == 'true' }}
     runs-on: ubuntu-24.04  # Explicitly specify ubuntu-24.04
 
     steps:
